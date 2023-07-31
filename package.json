@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ChrGrace/SVG-Logo/issues"
   },
-  "homepage": "https://github.com/ChrGrace/SVG-Logo#readme"
+  "homepage": "https://github.com/ChrGrace/SVG-Logo#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^29.5.0"
+  }
 }
